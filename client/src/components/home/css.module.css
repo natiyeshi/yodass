@@ -1,0 +1,59 @@
+.img1 {
+    animation : anim1 1s ,anim2 1s 1s; 
+    
+}
+
+@keyframes anim1{
+    from {
+        transform : translateX(100%);
+        opacity : 0;
+    }
+    to{
+        opacity : 0.5;
+    }
+}
+
+@keyframes anim2{
+    from {
+        transform : rotate(360deg);
+    }
+}
+
+
+.image1{
+    animation : img1 .6s .3s,anim2 1s .9s ; 
+}
+.image2{
+    animation : img2 .6s .3s,anim2 1s .9s ; 
+}
+.image3{
+    animation : img3 .6s .3s,anim2 1s .9s ; 
+}
+.image4{
+    animation : img4 .6s .3s,anim2 1s .9s ; 
+}
+
+
+@keyframes img1{
+    from {
+        transform : translateY(100%);
+    }
+}
+
+@keyframes img2{
+    from {
+        transform : translateX(100%);
+    }
+}
+
+@keyframes img3{
+    from {
+        transform : translateX(-100%);
+    }
+}
+
+@keyframes img4{
+    from {
+        transform : translateY(-100%);
+    }
+}
