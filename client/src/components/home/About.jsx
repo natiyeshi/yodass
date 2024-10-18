@@ -6,7 +6,7 @@ import img4 from "../../assets/unsplash_Tzm3Oyu_6sk.png"
 import Star2 from "../../assets/Star2.svg"
 import css from "./css.module.css"
 
-
+import { Link } from 'react-router-dom'
 const About = () => {
 
     const [isInRange, setIsInRange] = useState(false);
@@ -29,7 +29,7 @@ console.log(scrollPosition)
     }, []);
 
   return (
-    <div className='relative px-p18 max-md:px-4 mt-32 ' id='a'>
+    <div className='relative px-p18 max-md:px-4 mt-32 ' id='about'>
         
         <img src={Star2 } alt="" className='max-lg:hidden absolute -right-40 -top-16' width={"310px"} />
         <img src={Star2 } alt="" className='absolute max-lg:hidden -left-40 -bottom-36' width={"310px"} />
@@ -39,18 +39,19 @@ console.log(scrollPosition)
         <div className='flex gap-3 mt-6 max-lg:flex-col max-lg:gap-7'>
             <div className='basis-1/2 flex flex-col gap-8'>
                 <p>
-                    Our company was founded in <span className='text-yellows'>2014</span>  and since its creation
-                    company has been able to acquire many clients by
-                    delivering works in the expected quality innovation and
-                    based on principle of honesty resulting the company's
-                    current achievement to have its own sufficient working
-                    capita and number of clients. We committee our self's
-                    to maintain our reputation among clients and to capacitate
-                    our service both in terms of <span className='text-yellows'> knowledge</span>  and 
-                    <span className='text-yellows'> competency </span>
-                    working towards more success.
+                  <span className='text-yellow-500 me-1 font-semibold'>
+                    YODASS
+                  </span>
+                 is a full-service printing and digital solutions company dedicated to delivering high-quality printing, digital marketing, social media management, and website development across various industries. With a collective experience of over a decade, our team excels in utilizing state-of-the-art technology and materials. 
+              </p>
+              <p>
+                We pride ourselves on providing 
+                <span className='text-yellow-500 mx-1 font-semibold'>
+                exceptional
+                </span>
+                 print solutions and digital services that combine durability and visual appeal, making us the trusted partner for all your needs in Ife. Our commitment to quality and client satisfaction sets us apart in the industry.
                 </p>
-                <button className='w-fit hover:bg-yellow-400 bg-yellows text-white text-lg px-5 py-1' style={{borderRadius:"29px"}}>READ MORE</button>
+                <Link to={"/about"} className='w-fit hover:bg-yellow-400 bg-yellows text-white text-lg px-5 py-1' style={{borderRadius:"29px"}}>READ MORE</Link>
             </div>
 
             <div className='flex flex-col basis-1/2 '>

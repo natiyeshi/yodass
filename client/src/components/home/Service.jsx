@@ -8,6 +8,8 @@ import img5 from "../../assets/icon-park_ad-product.svg"
 import img6 from "../../assets/ph_flag-banner-fill.svg"
 import Star1 from "../../assets/Star1.svg"
 
+import { Link } from 'react-router-dom'
+
 const Service = () => {
   let data = [
     {h : "LED Lighting Letters" , p:"Eye-catching, energy-efficient, and durable LED lighting letters.", img:img1} ,
@@ -29,7 +31,7 @@ const Service = () => {
         <div className='grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 flex-wrap gap-3'>
             {boxes}          
         </div>
-        <button className='w-fit mx-auto hover:bg-yellow-400 bg-yellows text-white text-lg px-5 py-1' style={{borderRadius:"29px"}}>READ MORE</button>
+        <Link to={"/service"} className='w-fit mx-auto hover:bg-yellow-400 bg-yellows text-white text-lg px-5 py-1' style={{borderRadius:"29px"}}>READ MORE</Link>
 
 
     </div>

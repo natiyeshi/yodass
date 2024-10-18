@@ -11,10 +11,10 @@ const Nav = ({cls}) => {
   const checkActive = ({isActive}) => isActive ?  common + "text-yellows font-semibold " : common 
   return (
     <div className={` w-full text-white bg-blues py-4 flex p-p18 max-lg:p-4 max-md:flex-col justify-between ${cls} `}> 
-        <div className='flex gap-3 text-xl font-bold my-auto'>
+        <NavLink to="/"  className='flex gap-3 text-xl font-bold my-auto' >
             <img src={Logo} width={"30px"} alt="" className='my-auto'/>
             <h1 className='my-auto'>YODASS</h1> 
-        </div>
+        </NavLink>
         {tog ? 
             <Menu className="absolute right-8 md:hidden text-3xl"  onClick={() => {setTog(false)}}/> :
             <Close className='absolute right-8 md:hidden text-3xl' onClick={() => {setTog(true)}} /> 

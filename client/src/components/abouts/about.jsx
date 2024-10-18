@@ -6,7 +6,7 @@ import Footer from '../home/Footer'
 const index = () => {
   return (
     <div className='overflow-hidden'>
-      <First />
+      {/* <First /> */}
       <Goal />
       <Footer />
     </div>

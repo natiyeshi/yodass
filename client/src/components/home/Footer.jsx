@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import {BsFacebook as Fb,BsTelegram as Tg, BsInstagram as Insta} from "react-icons/bs"
+import {BsFacebook as Fb,BsTelegram as Tg, BsInstagram as Insta,BsLinkedin as Linkdin} from "react-icons/bs"
 import Pattern from "../../assets/Pattern.svg"
 
 
@@ -86,6 +86,9 @@ const Footer = () => {
                     </a>
                     <a href="">
                         <Insta className='text-2xl text-yellows duration-100 hover:scale-110 ' />
+                    </a>
+                    <a href="">
+                        <Linkdin className='text-2xl text-yellows duration-100 hover:scale-110 ' />
                     </a>
 
                 </div>

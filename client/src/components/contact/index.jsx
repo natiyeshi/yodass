@@ -40,8 +40,8 @@ const index = () => {
                 </div>
 
                 <div className='grow max-md:mt-5'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d985.1422554903787!2d38.75918275420193!3d9.011743946684845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8511382c3c7b%3A0xc133da741c1d8dc5!2sAwash%20Bank%20Stadium%20Branch!5e0!3m2!1sen!2sus!4v1688299422161!5m2!1sen!2sus"
-                     width="100%" height="400px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.3184048709877!2d38.74623707384906!3d9.034691588902215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85f7c0e62cdb%3A0xe88299ab791bb666!2sLimat%20Ledget%20Business%20Center!5e0!3m2!1sen!2sus!4v1688454026872!5m2!1sen!2sus" 
+                     width="100%" height="400px" className='bg-gray-400' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
             </div>
@@ -53,7 +53,8 @@ const index = () => {
             <div className='flex mt-12 gap-10  max-md:flex-col'>
 
                 <div className='basis-1/2'>
-                    <iframe className='border' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d985.1422554903787!2d38.75918275420193!3d9.011743946684845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8511382c3c7b%3A0xc133da741c1d8dc5!2sAwash%20Bank%20Stadium%20Branch!5e0!3m2!1sen!2sus!4v1688299422161!5m2!1sen!2sus" width="100%" height="400px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.2261441155883!2d38.717944573849984!3d9.134036387338336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8b007263414d%3A0x1e9f2f734fdb485f!2sWeserbi%20guto!5e0!3m2!1sen!2sus!4v1688454485340!5m2!1sen!2sus" 
+                      width="100%" height="400px" className='bg-gray-400' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 
                 <div className='basis-1/2 flex flex-col gap-3 my-auto font-semibold'>

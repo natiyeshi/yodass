@@ -11,7 +11,7 @@ export default {
         yellows: "#E6C120"
       } ,
       padding:{
-        "p18" : "18%"
+        "p18" : "8%"
       },
     },
   },

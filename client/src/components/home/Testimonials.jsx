@@ -81,7 +81,6 @@ const Testimonials = () => {
         <img src={Star2 } alt="" className={`max-lg:hidden absolute -left-40 -bottom-12`} width={"320px"} />
         
         <h1 className='text-2xl text-blues font-bold text-center '>Testimonials</h1>
-        <p className='text-center text-lg'>What our customers say</p>
         <div className='relative bg--400'>
         
             <div className=' flex  overflow-hidden bg-red-30 gap-1 w-11/12   mx-auto' >
