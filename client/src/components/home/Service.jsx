@@ -8,6 +8,8 @@ import img5 from "../../assets/icon-park_ad-product.svg"
 import img6 from "../../assets/ph_flag-banner-fill.svg"
 import Star1 from "../../assets/Star1.svg"
 
+import { FaGlobe } from "react-icons/fa"
+import { FaShareAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom'
 
 const Service = () => {
@@ -29,7 +31,23 @@ const Service = () => {
         <p>At YODASS, we are dedicated to providing high-quality LED lighting solutions and signage services to our clients. Our range of services includes:</p>
         
         <div className='grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 flex-wrap gap-3'>
-            {boxes}          
+            {boxes}  
+            <div className='group border-2 max-md:basis-4/1  border-gray-400 py-3 px-6 flex flex-col gap-3 duration-100 cursor-pointer hover:bg-gray-400 hover:bg-opacity-20 hover:-translate-y-2 hover:duration-150'>
+              <FaGlobe  size={40} className='border rounded-full group-hover:duration-700 group-hover:rotate-180 group-hover:bg-white p-2 border-yellows text-yellows' />
+              {/* <img src={img} width={"50px"} alt="" /> */}
+              <h1 className='text-lg font-bold text-blues'>Website Development</h1>
+              <p className=' max-w-xs'>
+                Crafting responsive, user-friendly, and scalable websites that drive engagement and deliver exceptional user experiences.
+              </p>
+          </div>  
+          <div className='group border-2 max-md:basis-4/1  border-gray-400 py-3 px-6 flex flex-col gap-3 duration-100 cursor-pointer hover:bg-gray-400 hover:bg-opacity-20 hover:-translate-y-2 hover:duration-150'>
+              <FaShareAlt  size={40} className='border rounded-full group-hover:duration-700 group-hover:rotate-180 group-hover:bg-white p-2 border-yellows text-yellows' />
+              {/* <img src={img} width={"50px"} alt="" /> */}
+              <h1 className='text-lg font-bold text-blues capitalize'>social Media Management</h1>
+              <p className=' max-w-xs'>
+              Building and managing your brand’s online presence through strategic content, engagement, and data-driven insights across all major platforms.
+                </p>
+          </div>        
         </div>
         <Link to={"/service"} className='w-fit mx-auto hover:bg-yellow-400 bg-yellows text-white text-lg px-5 py-1' style={{borderRadius:"29px"}}>READ MORE</Link>
 
