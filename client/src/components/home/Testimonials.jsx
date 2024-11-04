@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Test from './Test'
 import {MdOutlineNavigateNext as Next } from "react-icons/md"
-import Star2 from "../../assets/Star2.svg"
+import Star2 from "../../assets/star2.svg"
 import useEmblaCarousel from "embla-carousel-react";
 
 const Testimonials = () => {

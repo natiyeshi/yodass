@@ -3,7 +3,7 @@ import img1 from "../../assets/new/about1.jpg"
 import img2 from "../../assets/new/about2.jpg"
 import img3 from "../../assets/new/about3.jpg"
 import img4 from "../../assets/new/about4.jpg"
-import Star2 from "../../assets/Star2.svg"
+import Star2 from "../../assets/star2.svg"
 import css from "./css.module.css"
 
 import { Link } from 'react-router-dom'

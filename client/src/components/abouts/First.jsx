@@ -4,7 +4,7 @@ import img2 from "../../assets/unsplash_PtabTe6iJ_8.png"
 import img3 from "../../assets/unsplash_LPWl2pEVGKc.png"
 import img4 from "../../assets/unsplash_Tzm3Oyu_6sk.png"
 import Start1 from "../../assets/star1.svg"
-import Start2 from "../../assets/Star2.svg"
+import Start2 from "../../assets/star2.svg"
 
 const First = () => {
   return (
