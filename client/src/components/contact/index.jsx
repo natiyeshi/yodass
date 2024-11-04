@@ -4,8 +4,8 @@ import {AiOutlineMail as Mail } from "react-icons/ai"
 import {HiLocationMarker as Locations } from "react-icons/hi"
 import Footer from '../home/Footer'
 
-import Star1 from "../../assets/Star1.svg"
-import Star2 from "../../assets/Star2.svg"
+import Star1 from "../../assets/star1.svg"
+import Star2 from "../../assets/star2.svg"
 
 const index = () => {
   return (
