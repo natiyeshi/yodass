@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from "../../assets/Frame.svg"
-import Star1 from "../../assets/Star1.svg"
+import Star1 from "../../assets/star1.svg"
 import css from "./css.module.css"
 
 const Welcome = () => {

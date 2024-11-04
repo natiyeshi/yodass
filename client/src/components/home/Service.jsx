@@ -6,7 +6,7 @@ import img3 from "../../assets/teenyicons_sign-solid.svg"
 import img4 from "../../assets/bi_house-gear-fill.svg"
 import img5 from "../../assets/icon-park_ad-product.svg"
 import img6 from "../../assets/ph_flag-banner-fill.svg"
-import Star1 from "../../assets/Star1.svg"
+import Star1 from "../../assets/star1.svg"
 
 import { FaGlobe } from "react-icons/fa"
 import { FaShareAlt } from 'react-icons/fa';

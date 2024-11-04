@@ -21,7 +21,7 @@ import new8 from "../../assets/new/new8.jpg"
 import new9 from "../../assets/new/new9.jpg"
 import new10 from "../../assets/new/new10.jpg"
 
-import Star1 from "../../assets/Star1.svg"
+import Star1 from "../../assets/star1.svg"
 import Star2 from "../../assets/Star2.svg"
 
 const Samples = () => {

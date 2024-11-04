@@ -3,7 +3,7 @@ import img1 from "../../assets/unsplash_PtabTe6iJ_8 (1).png"
 import img2 from "../../assets/unsplash_PtabTe6iJ_8.png"
 import img3 from "../../assets/unsplash_LPWl2pEVGKc.png"
 import img4 from "../../assets/unsplash_Tzm3Oyu_6sk.png"
-import Start1 from "../../assets/Star1.svg"
+import Start1 from "../../assets/star1.svg"
 import Start2 from "../../assets/Star2.svg"
 
 const First = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Start1 from "../../assets/Star1.svg"
+import Start1 from "../../assets/star1.svg"
 import Start2 from "../../assets/Star2.svg"
 
 import { Link } from 'react-router-dom'

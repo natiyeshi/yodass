@@ -1,7 +1,7 @@
 import React from 'react'
 import Box from './Box'
 
-import Stare1 from "../../assets/Star1.svg"
+import Stare1 from "../../assets/star1.svg"
 import Stare2 from "../../assets/Star2.svg"
 
 const Services = () => {
