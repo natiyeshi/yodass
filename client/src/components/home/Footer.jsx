@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import {BsFacebook as Fb,BsTelegram as Tg, BsInstagram as Insta,BsLinkedin as Linkdin} from "react-icons/bs"
-import Pattern from "../../assets/Pattern.svg"
+import Pattern from "../../assets/pattern.svg"
 
 
 const Footer = () => {
